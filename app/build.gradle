@@ -34,13 +34,13 @@ dependencies {
     compile 'com.jakewharton.timber:timber:4.1.0'
 
     // inspection
-    compile 'com.facebook.stetho:stetho:1.3.0'
-    compile 'com.facebook.stetho:stetho-okhttp3:1.3.0'
+    compile 'com.facebook.stetho:stetho:1.4.2'
+    compile 'com.facebook.stetho:stetho-okhttp3:1.4.2'
 
     // network
-    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
     compile 'com.squareup.retrofit2:converter-gson:+'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.0.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
 
     // database
     apt "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
